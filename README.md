@@ -147,6 +147,8 @@ Built for penetration testers, bug bounty hunters, and application security engi
 └──────────────────────────────────────────────────────────┘
 ```
 
+---
+
 ### Core Components
 
 | Component | Responsibility |
@@ -177,8 +179,8 @@ Built for penetration testers, bug bounty hunters, and application security engi
 
 ```bash
 # Clone the repository
-git clone <https://github.com/yourusername/header-hunter.git>
-cd header-hunter
+git clone https://github.com/rohit-1006/HTTP-Header-Attack-Tool.git
+cd HTTP-Header-Attack-Tool
 
 # Install dependencies
 pip install -r requirements.txt
@@ -199,7 +201,7 @@ tabulate>=0.9.0
 ### One-liner Install
 
 ```bash
-git clone <https://github.com/yourusername/header-hunter.git> && cd header-hunter && pip install requests urllib3 colorama tabulate && python header_hunter.py --help
+git clone https://github.com/rohit-1006/HTTP-Header-Attack-Tool.git && cd HTTP-Header-Attack-Tool && pip install requests urllib3 colorama tabulate && python header_hunter.py --help
 ```
 
 ### Docker (Optional)
@@ -210,11 +212,6 @@ WORKDIR /app
 COPY header_hunter.py .
 RUN pip install --no-cache-dir requests urllib3 colorama tabulate
 ENTRYPOINT ["python", "header_hunter.py"]
-```
-
-```bash
-docker build -t header-hunter .
-docker run --rm header-hunter -u <https://example.com> --mode all
 ```
 
 ---
