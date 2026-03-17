@@ -4,7 +4,6 @@
 
 [![Python](<https://img.shields.io/badge/Python-3.8%2B-blue.svg>)](<https://python.org>)
 [![License](<https://img.shields.io/badge/License-MIT-green.svg>)](LICENSE)
-[![Platform](<https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey.svg>)]()
 [![OWASP](<https://img.shields.io/badge/OWASP-Aligned-orange.svg>)](<https://owasp.org/www-project-secure-headers/>)
 
 <p align="center">
