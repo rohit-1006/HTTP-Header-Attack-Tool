@@ -110,6 +110,8 @@ Built for penetration testers, bug bounty hunters, and application security engi
 ---
 
 ## 🏗️ Architecture
+
+```
 ┌──────────────────────────────────────────────────────────┐
 │                    HeaderHunter v2.0                      │
 ├──────────────────────────────────────────────────────────┤
@@ -130,20 +132,19 @@ Built for penetration testers, bug bounty hunters, and application security engi
 │  │ Request     │ Hop-by-Hop   │ Password Reset        │   │
 │  │ Smuggling   │ Abuse        │ Poisoning             │   │
 │  │ (CL.TE/     │ (25 headers) │ (10 endpoints)        │   │
-│  │  [TE.CL/TE.TE](http://te.cl/TE.TE))│             │                       │   │
+│  │  [TE.CL/TE.TE](http://te.cl/TE.TE))                │   │    
 │  └─────────────┴──────────────┴───────────────────────┘   │
-│         │                                                │
-│  ┌──────┴────────────────────────────────────────────┐   │
+│         │                                                 │
+│  ┌──────┴────────────────────────────────────────────┐    │
 │  │           Remediation & Reporting                  │   │
-│  │  ┌────────┬────────┬─────┬───────┬─────────────┐  │   │
-│  │  │ Nginx  │ Apache │ IIS │ Caddy │   Traefik   │  │   │
-│  │  └────────┴────────┴─────┴───────┴─────────────┘  │   │
+│  │  ┌────────┬────────┬─────┬───────┬─────────────┐  │    │
+│  │  │ Nginx  │ Apache │ IIS │ Caddy │   Traefik   │  │    │
+│  │  └────────┴────────┴─────┴───────┴─────────────┘  │    │
 │  │  ┌─────────────────────────────────────────────┐   │   │
 │  │  │         JSON Report Generator               │   │   │
 │  │  └─────────────────────────────────────────────┘   │   │
 │  └────────────────────────────────────────────────────┘   │
 └──────────────────────────────────────────────────────────┘
-
 ```
 
 ### Core Components
@@ -706,9 +707,7 @@ Contributions are welcome. Please follow these guidelines:
 
 Application Security Engineer | Penetration Tester | Tool Developer
 
-- 🔗 [LinkedIn](https://linkedin.com/in/yourprofile)
-- 🐙 [GitHub](https://github.com/yourusername)
-- 🐦 [Twitter](https://twitter.com/yourhandle)
+- 🐙 [GitHub](https://github.com/rohit-1006)
 
 ### Built With
 
