@@ -1,6 +1,4 @@
-<p align="center">
 # 🎯 HeaderHunter
-</p>
 
 ### Comprehensive HTTP Header Security Analysis & Attack Tool
 
